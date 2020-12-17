@@ -1,0 +1,11 @@
+/* Nested tag */
+$nopx: 0px;
+$tenpx: 10px;
+
+body {
+  margin: $nopx;
+  padding: $nopx;
+  p {
+    margin: $tenpx;
+  }
+}

@@ -1,0 +1,20 @@
+/* Extends */
+$green: #00ff00;
+$red: #ff0000;
+%sizefnt {
+  font-size: 12px;
+}
+
+.info {
+  @extend %sizefnt;
+}
+
+.success {
+  @extend %sizefnt;
+  color: $green;
+}
+
+.warning {
+  @extend %sizefnt;
+  color: $red;
+}
